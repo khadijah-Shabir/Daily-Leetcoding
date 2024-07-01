@@ -7,12 +7,13 @@ var threeConsecutiveOdds = function(arr) {
     for(const n of arr){
         if (n%2!=0){
             i++;
+            if(i>=3){
+            return true;
+            }
         }else{
             i=0;
         }
-        if(i>=3){
-            return true;
-        }
+        
     }
     return false;
 };
