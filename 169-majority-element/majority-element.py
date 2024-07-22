@@ -9,3 +9,5 @@ class Solution:
              else:
                  count-=1
          return res
+
+         #Solved by Boyer-Moore Algorithm.
