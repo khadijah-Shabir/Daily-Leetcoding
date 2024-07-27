@@ -12,7 +12,7 @@ class Solution:
             return 
         # find the middle of the list
         slow=head
-        fast=head
+        fast=head.next
         while fast and fast.next:
             slow=slow.next
             fast=fast.next.next
